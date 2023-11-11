@@ -1,8 +1,8 @@
 # Pi-hole w/ Recursive DNS
-This project is to setup a Pi-Hole DNS sinkhole in docker. We will then add recursive DNS functionality using Unbound. It is prefered to setup Pi-hole on a static IP address as that address will need to be added to devices and you would need to update it everytime the IP address changes.
+This project is to setup a Pi-Hole DNS sinkhole in docker. We will then add recursive DNS functionality using unbound. It is prefered to setup Pi-hole on a static IP address as that address will need to be added to devices and you would need to update it everytime the IP address changes.
 ## Tools
 - [Pi-hole](https://pi-hole.net/)
-- [Unbound](https://nlnetlabs.nl/projects/unbound/about/)
+- [unbound](https://nlnetlabs.nl/projects/unbound/about/)
 
 ## Environments Used
 - Proxmox VE (8.0.3)
